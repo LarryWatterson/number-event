@@ -1,5 +1,5 @@
 #pragma once
-class CNumberEvent : public singleton<CNumberEvent>
+class CNumberEvent final : public singleton<CNumberEvent>
 {
     public:
         auto    AddNumber(LPCHARACTER ch, DWORD dwNumber) -> void;
